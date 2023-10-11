@@ -37,7 +37,7 @@ const sendPush = async (e) => {
         onChange={(e)=>setAmount(e.target.value)}
 
         />
-        <button className='bg-green-500 text-white px-2 py-1 rounded-xl' onClick={sendPush}>PayNow</button>
+        <button className='bg-green-500 text-white px-2 py-1 rounded-xl' onClick={sendPush}>Pay Now</button>
       </form>
     </>
   )
